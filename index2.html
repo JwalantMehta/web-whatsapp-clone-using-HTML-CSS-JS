@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/391827d54c.js" crossorigin="anonymous"></script>
+    <script src="index2.js"></script>
+    <title>whatsapp clone</title>
+    <link rel="stylesheet" href="index2.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="left-container">            <!--contains profile pic, icons, searchbar, chatlist-->
+            <div class="header">                <!--contains profile pic and icons-->
+                <div class="user-img">
+                    <img class="user-img" src="my_profile_pic.jpg" alt="">
+                </div>
+
+            
+
+                <!-- on profile image clicked -->
+
+                <div class="user-profile">
+                    <div class="profile-header">
+                        <div class="back-icon-profile"><i class="fa fa-arrow-left" aria-hidden="true"></i></div>
+                        <h3>Profile</h3>
+                    </div>
+                    <div class="profile-img-enlarged">
+                        <img class="profile-img-enlarged" src="my_profile_pic.jpg" alt="">   
+                    </div>
+                    <br>
+                    <div class="profile-name">
+                        <p>Your Name</p>
+                        <br>
+                        <div>
+                            <h4 id="name">Jwalant Mehta</h4>
+                            <i class="fas fa-edit" id="edit-name"></i>
+                        </div>
+
+                    </div>
+                    <div class="profile-bio">
+                        <p>About</p>
+                        <br>
+
+                        <div>
+                            <h4 id="bio">play by rules, but be ferocious 🥂</h4>
+                            <i class="fas fa-edit" id="edit-bio"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="nav-icons">
+                    <!-- <li> <i id = "community" class="fa-solid fa-comments"></i></li>
+                    <li> <i id = "status" class="fa-solid fa-store"></i></li>
+                    <li> <i id = "channels" class="fa-solid fa-comment-dots"></i></li>
+                    <li> <i id = "new-chat" class="fa-solid fa-comment-medical"></i></li> -->
+                    <li> <i id = "more-options-icon" class="fa-solid fa-bars"></i></li>
+                </div>
+
+
+                <!-- on more-options-icon clicked -->
+                <div id="more-options-menu">
+                    <ul>
+                        <li><a href="#">Setting</a></li>
+                        <li><a href="#">New Group</a></li>
+                        <li><a href="#">Logout</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- search container-->
+            <div class="search-container">
+                <div class="input">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" placeholder="Search or start new chat   ">
+                </div>
+                <i class="fa-solid fa-bars-filter"></i>
+            </div>
+
+
+            <!-- whole chat list -->
+            <div class="chat-list">
+
+                
+                <!-- chat_item_1 -->
+                <div class="chat-box">
+                    <div class="image-box">
+                        <img class="profile-img" alt="profile-img" src="pic (1).png"></img>
+                    </div>
+                    <div class="chat-details">
+                        <div class="user-name">
+                            <h4>Smit</h4>       <!--contact name-->
+                            <p class="time">3:00 Pm</p>      <!--time of the last message-->
+                        </div>
+                        <div class="user-last-message">
+                            <p>Jai Shree Ram!</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- chat_item_2 -->
+                <div class="chat-box">
+                    <div class="image-box">
+                        <img class="profile-img" alt="profile-img" src="pic (2).png"></img>
+                    </div>
+                    <div class="chat-details">
+                        <div class="user-name">
+                            <h4>Kunj</h4>       <!--contact name-->
+                            <p class="time">3:00 Pm</p>       <!--time of the last message-->
+                        </div>
+                        <div class="user-last-message">
+                            <p>Jai Shree Ram!</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- chat_item_3 -->
+                <div class="chat-box">
+                    <div class="image-box">
+                        <img class="profile-img" alt="profile-img" src="pic (3).jpg"></img>
+                    </div>
+                    <div class="chat-details">
+                        <div class="user-name">
+                            <h4>Dhyey</h4>       <!--contact name-->
+                            <p class="time">3:00 Pm</p>       <!--time of the last message-->
+                        </div>
+                        <div class="user-last-message">
+                            <p>Jai Shree Ram!</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- chat_item_4 -->
+                <div class="chat-box">
+                    <div class="image-box">
+                        <img class="profile-img" alt="profile-img" src="pic (4).jpg"></img>
+                    </div>
+                    <div class="chat-details">
+                        <div class="user-name">
+                            <h4>Brijesh</h4>       <!--contact name-->
+                            <p class="time">3:00 Pm</p>       <!--time of the last message-->
+                        </div>
+                        <div class="user-last-message">
+                            <p>Jai Shree Ram!</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- chat_item_5 -->
+                <div class="chat-box">
+                    <div class="image-box">
+                        <img class="profile-img" alt="profile-img" src="pic (5).jpg"></img>
+                    </div>
+                    <div class="chat-details">
+                        <div class="user-name">
+                            <h4>Swayam</h4>       <!--contact name-->
+                            <p class="time">3:00 Pm</p>       <!--time of the last message-->
+                        </div>
+                        <div class="user-last-message">
+                            <p>Jai Shree Ram!</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- chat_item_6 -->
+                <div class="chat-box">
+                    <div class="image-box">
+                        <img class="profile-img" alt="profile-img" src="pic (6).jpg"></img>
+                    </div>
+                    <div class="chat-details">
+                        <div class="user-name">
+                            <h4>Yash</h4>       <!--contact name-->
+                            <p class="time">3:00 Pm</p>       <!--time of the last message-->
+                        </div>
+                        <div class="user-last-message">
+                            <p>Jai Shree Ram!</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- chat_item_7 -->
+                <div class="chat-box">
+                    <div class="image-box">
+                        <img class="profile-img" alt="profile-img" src="pic (7).jpg"></img>
+                    </div>
+                    <div class="chat-details">
+                        <div class="user-name">
+                            <h4>Meet</h4>       <!--contact name-->
+                            <p class="time">3:00 Pm</p>       <!--time of the last message-->
+                        </div>
+                        <div class="user-last-message">
+                            <p>Jai Shree Ram!</p>
+                        </div>
+                    </div>
+                </div>             
+
+            </div>
+        </div>
+
+
+        <!-- Right container -->
+        <div class="right-container">
+            <div class="user-message-header">
+                <div class="user-img">
+                    <img class="dp" src="pic (5).jpg" alt="">
+                </div>
+                <div class="current-chat">
+                    <h4>Swayam</h4>
+                    <p>Online</p>
+                </div>
+
+                <div class="chat-header-icon">
+                   <li><i class="fa-solid fa-magnifying-glass"></i></li> 
+                   <li><i class="fa-solid fa-ellipsis-vertical"></i></li> 
+                </div>
+            </div>
+
+            <div class="chat-container-current">
+                <div class="message-box my-message">
+                    <p>Hello bhai Jai Shree Ram<br><span>07:43</span></p>
+                  </div>
+                  <div class="message-box friend-message">
+                    <p>Jai Shree Ram bhai<br><span>07:45</span></p>
+                  </div>
+                  <div class="message-box friend-message">
+                    <p>kya hal chal hai<br><span>07:45</span></p>
+                  </div>
+                  <div class="message-box friend-message">
+                    <p>sab badhiya na?<br><span>07:45</span></p>
+                  </div>
+                  <div class="message-box my-message">
+                    <p>haan sab badhiya hai<br><span>07:46</span></p>
+                  </div>
+                  <div class="message-box my-message">
+                    <p>tu bata...<br><span>07:46</span></p>
+                  </div>
+                <div class="message-box friend-message">
+                    <p>hum to musafir hai chalte rehte hai<br><span>07:48</span></p>
+                  </div>
+                  <div class="message-box my-message">
+                    <p>Ahhh! shayar bahar aa gaya &#129315;<br><span>07:48</span></p>
+                  </div>
+                  <div class="message-box my-message">
+                    <p>chal thik hai milte hai!<br><span>07:48</span></p>
+                  </div>
+                <div class="message-box friend-message">
+                    <p>Haan bhai milte hai<br><span>07:49</span></p>
+                  </div>
+            </div>
+
+            <div class="chatbox-input">
+                <i class="fa-regular fa-face-grin"></i>
+                <i class="fa-sharp fa-solid fa-paperclip"></i>
+                <input type="text" placeholder="Type a message">
+                <i class="fa-solid fa-microphone"></i>
+              </div>
+        </div>
+
+    </div>
+</body>
+</html>
